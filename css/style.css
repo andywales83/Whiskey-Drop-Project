@@ -85,3 +85,12 @@ body {
     background-color: #bb6504;
     border-color: #bb6504;
 }
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus,
+.btn-red:active:focus {
+    background-color: #e68e2b;
+    border-color: #e68e2b;
+    color: white;
+}
