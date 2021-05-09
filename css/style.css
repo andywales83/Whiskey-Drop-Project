@@ -16,6 +16,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
 .opaque-overlay {
@@ -68,4 +70,18 @@ body {
     font-size: 75%;
     font-style: italic;
     color: white;
+}
+
+/* Buttons */
+
+.btn-cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn-red {
+    color: white;
+    background-color: #bb6504;
+    border-color: #bb6504;
 }
