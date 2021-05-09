@@ -6,7 +6,10 @@ body {
 
 }
 
-.container-wrapper--red
+.container-wrapper--red {
+    background-color: #d4660d;
+    color: white;
+}
 
 .alert-container .col-12 {
     padding-left: 0;
@@ -128,14 +131,19 @@ body {
     height: 5px;
     border: 0;
     background-color: #444;
+    margin-bottom: 50px;
 }
 
 .block-divider--orange {
-    background-color: #f05f40;
+    background-color: #ffc107;
 }
 
 .block-divider--short {
     width: 450px;
+}
+
+.block-divider--white {
+    background-color: white;
 }
 
 
@@ -156,15 +164,20 @@ body {
 
 .btn--red {
     color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    background-color: #ffc107;
+    border-color: #ffc107;
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
+    background-color: #d39e00;
+    border-color: #d39e00;
     color: white;
+}
+
+.feature {
+    margin-bottom: 40px;
+    text-align: center;
 }
